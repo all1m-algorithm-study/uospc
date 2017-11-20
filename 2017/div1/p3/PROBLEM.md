@@ -14,8 +14,8 @@
 빛의 수호자-우서 더 라이트브링어-인 당신은 가로등의 밝기가 바뀌기 전의 상태를 모른채, 현재 가로등의 상태만 보고 **최소 몇 개의 가로등의 밝기**가 바뀌었는지 알아내야 한다.
 
 ## 입력
-첫째 줄에 자연수 $`k`$가 주어진다. $`(1\leq k \leq 10^9)`$ $`k`$는 모든 가로등의 밝기 합의 최대값이다.  
-둘째 줄에 $`N`$자리 자연수 $`n`$이 주어진다. $`(1\leq n\leq 10^{100000})`$ $`n`$의 각 자리의 숫자는 각각 가로등 하나의 밝기를 나타낸다. 예를 들어 $`n=10^3`$이라면 $`N=3`$이고, $`x1=1,x2=0,x3=3`$이다.
+첫째 줄에 자연수 ![eq](http://mathurl.com/3baunz7.png)가 주어진다. ![eq](http://mathurl.com/y87dpzs4.png) ![eq](http://mathurl.com/3baunz7.png)는 모든 가로등의 밝기 합의 최대값이다.  
+둘째 줄에 ![eq](http://mathurl.com/zuxsjmw.png)자리 자연수 ![eq](http://mathurl.com/2wdwb4o.png)이 주어진다. ![eq](http://mathurl.com/yavgs5sh.png) ![eq](http://mathurl.com/2wdwb4o.png)의 각 자리의 숫자는 각각 가로등 하나의 밝기를 나타낸다. 예를 들어 ![eq](http://mathurl.com/yd4yktme.png)이라면 ![eq](http://mathurl.com/y99qbbgl.png)이고, ![eq](http://mathurl.com/y7dd2cm2.png)이다.
 
 ## 출력
 바뀐 가로등의 최소 개수를 구하시오.
@@ -39,7 +39,7 @@
 ```
 ## 예제 출력 2
 현재 가로등이 조건을 모두 만족한다.  
-고로, 초기 가로등의 밝기 수열이 $`n`$과 그대로 같을 수 있으므로 아무것도 바꾸지 않는다.  
+고로, 초기 가로등의 밝기 수열이 ![eq](http://mathurl.com/2wdwb4o.png)과 그대로 같을 수 있으므로 아무것도 바꾸지 않는다.  
 ```
 0
 ```
