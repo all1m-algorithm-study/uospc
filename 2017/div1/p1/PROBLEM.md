@@ -16,8 +16,8 @@
 ![uospc2017div1p1p3](./img/uospc2017div1p1p3.png?raw=true)  
 “김병식"은 이 밥그릇으로 손님들한테 아몬드를 받아왔다. 착한 손님들 덕분에 밥그릇의 모든 칸에 아몬드를 채웠다. 이 때 “김병식"이 얻을 수 있는 모든 아몬드의 개수를 구하라.
 ## 입력
-첫째 줄에 띄어쓰기를 기준으로 6개의 정수 ![equation](http://latex.codecogs.com/png.download?a_1%2C%20a_2%2C%20a_3%2C%20a_4%2C%20a_5%2C%20a_6)가 주어진다. ![equation](http://latex.codecogs.com/png.download?%281%5Cleq%20a_i%5Cleq%201%2C000%29)  
-![equation](http://latex.codecogs.com/png.latex?a_i)는 육각형의 각 변의 길이이고, 시계 방향으로 주어진다. 또한 위 조건을 만족하는 육각형을 만들 수 있도록 값이 주어진다고 한다. (예: “1 1 1 1 1 2”와 같은 값은 주어지지 않는다.)
+첫째 줄에 띄어쓰기를 기준으로 6개의 정수 ![equation](http://latex.codecogs.com/svg.latex?a_1%2C%20a_2%2C%20a_3%2C%20a_4%2C%20a_5%2C%20a_6)가 주어진다. ![equation](http://latex.codecogs.com/svg.latex?%281%5Cleq%20a_i%5Cleq%201%2C000%29)  
+![equation](http://latex.codecogs.com/svg.latex?a_i)는 육각형의 각 변의 길이이고, 시계 방향으로 주어진다. 또한 위 조건을 만족하는 육각형을 만들 수 있도록 값이 주어진다고 한다. (예: “1 1 1 1 1 2”와 같은 값은 주어지지 않는다.)
 ## 출력
 "김병식" 먹을 수 있는 모든 “김병식"이 먹을 수 있는 모든 아몬드의 개수를 구하라.
 ## 예제 입력 1
