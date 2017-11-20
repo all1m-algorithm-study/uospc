@@ -1,13 +1,12 @@
-:stem: latexmath
 # 3. 우서 더 라이트브링어
 ## 시간 제한 : 2초 | 메모리 제한 : 256 MB
 ## 문제 내용
 시립대 가로등의 특징은 다음과 같다.  
   
-* 시립대 가로등의 총 개수는 $`N`$개다. $`i`$번째 가로등의 밝기를 $`x_i`$라고 하자. $`(1\leq i\leq N)`$
-* 각 가로등은 $`0`$부터 $`9`$의 밝기값을 갖는다. ($`0`$은 가로등이 꺼졌음을 의미한다.) 즉, $`0\leq x_i \leq 9`$이다.
-* 단, 첫번째 가로등은 끌 수 없다. 즉, $`0<x_1 \leq 9`$이다.
-* 모든 가로등의 밝기 합은 $`k`$보다 작지 않다. 즉 $`sum_(j=1)^N x_j\geq k`$이다.
+* 시립대 가로등의 총 개수는 ![eq](http://mathurl.com/32h6522.png)개다. ![eq](http://mathurl.com/5ldlsl.png)번째 가로등의 밝기를 ![eq](http://mathurl.com/2az2c7m.png)라고 하자. ![eq](http://mathurl.com/ybwrav7h.png)
+* 각 가로등은 ![eq](http://mathurl.com/2vzzs3z.png)부터 ![eq](http://mathurl.com/y6vqfd48.png)의 밝기값을 갖는다. (![eq](http://mathurl.com/2vzzs3z.png)은 가로등이 꺼졌음을 의미한다.) 즉, ![eq](http://mathurl.com/ybluuxkn.png)이다.
+* 단, 첫번째 가로등은 끌 수 없다. 즉, ![eq](http://mathurl.com/y8wo5fkv.png)이다.
+* 모든 가로등의 밝기 합은 ![eq](http://mathurl.com/3baunz7.png)보다 작지 않다. 즉 ![eq](http://mathurl.com/ycpd9gtv.png)이다.
   
 시립대 빛 환경 지키미인 당신은 매일 밤마다 시립대를 한바퀴 돌면서 가로등들이 정상인지, 즉 위 조건을 모두 만족시키는지 확인한다. 
 어느날 누군가 가로등을 건드렸다는 제보를 접수받는 당신은 모든 가로등들을 확인한다. 
