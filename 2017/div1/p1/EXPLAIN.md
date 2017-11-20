@@ -6,4 +6,6 @@
 따라서 ![equation](http://latex.codecogs.com/svg.latex?k)-정삼각형은 ![equation](http://latex.codecogs.com/svg.latex?k^2)개의 작은 정삼각형으로 쪼개진다.
   
 만약에 육각형의 ![equation](http://latex.codecogs.com/svg.latex?a_1%2C%20a_3%2C%20a_5)길이의 각 변에 정삼각형을 맞춰서 붙인다면, ![equation](http://latex.codecogs.com/svg.latex?a_1&plus;a_3&plus;a_5)길이의 변으로 이루어진 삼각형을 얻게 된다.
-고로 육각형의 넓이는 ![equation](https://latex.codecogs.com/svg.latex?%28a_1&plus;a_2&plus;a_3%29%5E2-a_1%5E2-a_3%5E2-a_5%5E2)와 같고, 이는 “김병식"이 먹을 수 있는 모든 아몬드의 개수이다.
+고로 육각형의 넓이는 ![equation](https://latex.codecogs.com/svg.latex?%28a_1&plus;a_2&plus;a_3%29%5E2-a_1%5E2-a_3%5E2-a_5%5E2)와 같고, 이는 “김병식"이 먹을 수 있는 모든 아몬드의 개수이다.  
+  
+![uospc2017div1p1explain](./img/uospc2017div1p1explain.png?raw=true)
