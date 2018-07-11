@@ -1,7 +1,7 @@
 # DMOJ 보충 설명
 ### 구조
-사용자 <-> Site <-> Judge
-            \--관리자--/
+사용자 <-> Site <-> Judge  
+            \\--관리자--/
 * Site에 문제를 등록하면 Judge에 해당 문제의 채점 파일(ex. txt 파일)이 들어있어야 채점이 가능합니다.
 * [DMOJ Docs](https://dmoj.readthedocs.io/) 해당 사이트 반드시 참고하면서 보셔야 합니다.
 ### 1. 설치
@@ -37,5 +37,18 @@
 * Problem
   - Problem Format, Problem Examples를 반드시 참고해주세요.
 ### 2. 기능
+* Managing Problems Through the Site Interface
+  - Adding a Problem, Editing Test Data, Submitting a Problem
+  - 굳이 문서를 읽지 않아도 충분히 사이트를 통해 방법을 습득할 수 있습니다.
+* Admin
+  - `your.server.url/admin` 으로 접속합니다.
+  - Dashboard는 최근 설정을 바꾼 기록이 우측에 뜹니다. 중요한 정보가 뜨지는 않습니다.
+  - Problems에서 문제를 추가, 변경, 삭제할 수 있습니다.
+  - Submissions에서 제출된 코드들의 채점 현황을 확인할 수 있습니다. 코드를 조회 및 변경도 가능하고, 재채점까지 할 수 있습니다.
+  - Contests에서 대회를 추가, 변경, 삭제할 수 있습니다. Problems에서 문제들을 추가한 뒤, Contests에서 대회를 추가할 때 해당하는 문제들을 추가할 수 있습니다. 
+* 사용자 가입 및 인증
+  - 이메일 인증과 reCAPTCHA 인증 기능이 추가되어 있습니다. UOSPC 2017에서는 이메일 서버 오류로 이메일 인증이 불가능했었습니다.
+  - 그래서 구글 폼을 이용해서 신청 및 개인정보를 받아 하나씩 계정을 생성했습니다.
+  - 중복 가입 및 스팸을 막기 위해서는 학교 메일을 통한 이메일 인증이 필요한 것 같습니다.
 
 
