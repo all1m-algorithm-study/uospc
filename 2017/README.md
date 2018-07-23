@@ -43,8 +43,25 @@
   * 문제의 예제 입출력은 고정폭 글꼴(Fixed-width Fonts. Consolas, etc...)을 사용하여 표기한다.
   * 문제 설명을 구체화한다. 예제 출력이 어떻게 나오는지 일련의 과정을 표기한다.
 ## 4. 대회 시스템 구축(2017.09~2017.11)
-* 여러 후보들이 있었음
-* 이걸 고른 이유
+### 후보 및 이유
+* **[DOMJudge](https://www.domjudge.org/)**
+  * ACM-ICPC 공식 시스템입니다. 따라서 안정성 및 성능은 보장됩니다.
+  * 국내 대회인 ACM-ICPC Daejeon Regional에서도 사용합니다. 
+  * [Domjudge with react](https://github.com/myungwoo/react-domjudge) 프론트엔드를 좋게 만든 것도 있습니다. 
+  * 설치 도중 오류를 해결하지 못했습니다.
+* [PC^2](https://pc2.ecs.csus.edu/)
+  * 어느 대학에서 만든 시스템입니다.
+  * 웹 인터페이스가 아닌 서버-클라이언트 프로그램으로 대회를 진행합니다.
+  * 자바로 만들어졌는데, 연식이 오래되었고 오류도 많습니다.
+* [HUSTOJ](https://github.com/zhblue/hustoj)
+  * [경기과학고등학교 Judgeon](http://www.judgeon.net/)에서 수정 후 사용하고 있습니다.
+  * DOMJudge 만큼 괜찮습니다.
+  * 중국어를 몰라서 설치 실패했습니다.
+* **[DMOJ](https://github.com/DMOJ)**
+  * 캐나다 사람이 만든 시스템입니다. 
+  * DOMJudge 만큼은 아니지만, 쓸만합니다.
+  * 설치 성공했습니다.
+### [구축 인수인계](./DMOJ.md)
 ## 5. 홍보(2017.11)
 * 대회 시스템 온라인 사이트
 * 페이스북(컴과, 총학생회)
