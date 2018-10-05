@@ -1,0 +1,65 @@
+﻿모든 코드는 Python 3.x를 기준으로 작성하였다.
+
++ 소수 판단 함수를 이용하여 key를 생성한다.
+[code]
+def isPrime(n):
+  i = 2
+  while i * i <= n:
+    if n % i == 0:
+      return False
+    i += 1
+  return True
+
+key = ""
+
+for i in range(32, 127):
+  if isPrime(i) is True:
+    key += str(chr(i))
+
+key = key.encode('ascii') # key = '%)+/5;=CGIOSYaegkmq'
+[/code]
+
++ 두 ASCII 문자열을 XOR 연산하면, 복호화된 문자열이 나온다..
+[code]
+from itertools import cycle
+
+def xorStrings(s, t):
+  # Python 3 bytes objects contain integer values in the range 0-255
+  return bytes([a ^ b for a, b in zip(s, cycle(t))])
+
+decrypted = xorStrings(encrypted, cycle(key))
+[/code]
+
+아래는 모범 답안 코드이다.
+
+[code]
+from itertools import cycle
+
+def isPrime(n):
+  i = 2
+  while i * i <= n:
+    if n % i == 0:
+      return False
+    i += 1
+  return True
+
+def xorStrings(s, t):
+  return bytes([a ^ b for a, b in zip(s, cycle(t))])
+
+if __name__ == "__main__":
+  key = ""
+
+  for i in range(32, 127):
+    if isPrime(i) is True:
+      key += str(chr(i))
+
+  key = key.encode('ascii') # key = '%)+/5;=CGIOSYaegkmq'
+
+  encrypted = None
+  with open('./encrypted.txt', 'rb') as f:
+    encrypted = f.read()
+
+  decrypted = xorStrings(encrypted, key)
+
+  print(decrypted.decode('ascii'))
+[/code]

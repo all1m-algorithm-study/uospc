@@ -1,0 +1,6 @@
+5 6
+OOOOOO
+O#O#OO
+O#OO#O
+OOO#O#
+OO#OOO
