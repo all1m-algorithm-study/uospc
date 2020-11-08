@@ -8,8 +8,8 @@
 2. [UOS Coder](https://github.com/iknoom/uospc/blob/master/2019/div1/2.%20UOS%20Coder/uoscoder_statement.pdf)
 3. [우리 어디서 만날래](https://github.com/iknoom/uospc/blob/master/2019/div1/3.%20%EC%9A%B0%EB%A6%AC%20%EC%96%B4%EB%94%94%EC%84%9C%20%EB%A7%8C%EB%82%A0%EB%9E%98/wherewemeet_statement.pdf)
 4. [팰린드롬(palindrome) 게임](https://github.com/iknoom/uospc/blob/master/2019/div1/4.%20%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC(palindrome)%20%EA%B2%8C%EC%9E%84/palindrome_statement.pdf)
-5. 조별과제(small)
-6. 조별과제(large)
+5. [조별과제(small)](https://github.com/all1m-algorithm-study/uospc/blob/master/2019/div1/5.%20%EC%A1%B0%EB%B3%84%EA%B3%BC%EC%A0%9C(small)/assignment_small_statement.pdf)
+6. [조별과제(large)](https://github.com/all1m-algorithm-study/uospc/blob/master/2019/div1/6.%20%EC%A1%B0%EB%B3%84%EA%B3%BC%EC%A0%9C(large)/assignment_large_statement.pdf)
 7. 해외 여행
 
 ### div2
@@ -20,6 +20,6 @@
 4. 팰린드롬 게임 (div2)
 5. [무빙워크](https://github.com/iknoom/uospc/blob/master/2019/div2/5.%20%EB%AC%B4%EB%B9%99%EC%9B%8C%ED%81%AC/movingwalk_statement.pdf)
 6. 근손실 싫어! 단백질 좋아!
-7. 미래관 엘리베이터
-8. 조별과제(small)
+7. [미래관 엘리베이터](https://github.com/all1m-algorithm-study/uospc/blob/master/2019/div2/7.%20%EB%AF%B8%EB%9E%98%EA%B4%80%20%EC%97%98%EB%A6%AC%EB%B2%A0%EC%9D%B4%ED%84%B0/elevator_statement.pdf)
+8. [조별과제(small)](https://github.com/all1m-algorithm-study/uospc/blob/master/2019/div2/8.%20%EC%A1%B0%EB%B3%84%EA%B3%BC%EC%A0%9C(small)/assignment_small_statement.pdf)
 
