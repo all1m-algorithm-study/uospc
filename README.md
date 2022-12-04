@@ -7,6 +7,7 @@
 - [UOSPC 2019](./2019 "2019")
 - [UOSPC 2020](https://github.com/all1m-algorithm-study/uospc2020)
 - [UOSPC 2021](https://github.com/all1m-algorithm-study/uospc2021)
+- [UOSPC 2022](https://github.com/all1m-algorithm-study/uospc2022)
 
 내부적으로 submodule을 포함하고 있으므로, submodule을 함께 clone하시려면 아래 명령어를 사용하셔야 합니다.
 
