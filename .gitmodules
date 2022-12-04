@@ -4,3 +4,6 @@
 [submodule "2021"]
 	path = 2021
 	url = https://github.com/all1m-algorithm-study/uospc2021.git
+[submodule "2022"]
+	path = 2022
+	url = https://github.com/all1m-algorithm-study/uospc2022.git
